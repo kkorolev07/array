@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let randomValues = []; // создаем массив
+
+        for (let i = 0; i < 10; i++) { // цикл, который выполнится 10 раз
+            let randomValue = Math.floor(Math.random() * 101); // случайное значение от 0 до 100
+            randomValues.push(randomValue); // добавляем случайное значение в массив
+        }
+
+        // выводим значения из массива на экран
+        for (let i = 0; i < randomValues.length; i++) {
+            console.log(randomValues[i]);
+        }
+
+    </script>
+</body>
+
+</html>
